@@ -16,6 +16,7 @@ export default defineConfig({
       },
     },
   },
+  base: "./", // 关键：使用相对路径
   server: {
     port: 3000,
   },
